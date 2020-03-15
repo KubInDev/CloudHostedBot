@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const token = 'Njg1NTMyMzc1Mjk5MzkxNjMy.Xm0zhQ.zn2GVWk-jX2yPGrOPZeiwASJ0Z8';
+client.login(token);
 
 client.on("ready", () => {
   console.log(`Bot has started`);
@@ -25,5 +26,3 @@ client.on("message", async message => {
     }
 
 });
-
-client.login(token);
