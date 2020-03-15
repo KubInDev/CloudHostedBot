@@ -19,19 +19,19 @@ client.on("message", async message => {
     }
 
     if(message.content === "RANGA") {
-      message.reply('Zgłoś się do kogoś z administracji, by przejść weryfikacje i dostać range szkolną! Pod komendą KONTAKT masz dane kontaktowe do administacji')
+      message.reply('Zgłoś się do kogoś z administracji, by przejść weryfikacje i dostać range szkolną! Pod komendą KONTAKT masz dane kontaktowe do administacji');
     }
 
     if(message.content === "KONTAKT") {
-      message.reply('Administacja: Pan Łukasz Matysek;woocash500#6902')
-      message.reply('Administacja: Krystian Baraniecki;LiptonLeon#8949')
-      message.reply('Administacja: Kuba Mielcarek;NibbaBuster#1029')
+      message.reply('Administacja: Pan Łukasz Matysek;woocash500#6902');
+      message.reply('Administacja: Krystian Baraniecki;LiptonLeon#8949');
+      message.reply('Administacja: Kuba Mielcarek;NibbaBuster#1029');
     }
 
     if(message.content === "USTAWIENIA") {
-      message.reply('Grafike oraz inne załączniki można dodać plusem w lewym dolnym rogu na kanale tekstowym.')
-      message.reply('Możesz sobie zmienić ustawienia mikrofonu w ustawieniach swojego discorda, NIE USTAWIENIACH SERWERA')
-      message.reply('Klikając mikrofon w lewym dolnym rogu, wyciszasz sie/odciszasz, zaś klikająć słuchawki wyłączasz/włączasz całkowicie dźwięk')
+      message.reply('Grafike oraz inne załączniki można dodać plusem w lewym dolnym rogu na kanale tekstowym.');
+      message.reply('Możesz sobie zmienić ustawienia mikrofonu w ustawieniach swojego discorda, NIE USTAWIENIACH SERWERA');
+      message.reply('Klikając mikrofon w lewym dolnym rogu, wyciszasz sie/odciszasz, zaś klikająć słuchawki wyłączasz/włączasz całkowicie dźwięk');
     }
 
 });
