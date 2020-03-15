@@ -20,6 +20,10 @@ client.on("message", async message => {
       message.reply('Jeżeli masz jakiś większy problem kieruj się do administracji!');
     }
 
+    if(message.content === "RANGA") {
+      message.reply('Zgłoś się do kogoś z administracji, by przejść weryfikacje i dostać range szkolną!')
+    }
+
 });
 
-client.login(token); 
+client.login(token);
