@@ -1,14 +1,13 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
+const Discord = require('discord.js');
+const Bot = new Discord.Client();
 
-const token = 'Njg1NTMyMzc1Mjk5MzkxNjMy.Xm46jA.i8IOFyjWTdqDRv_mWGGcTHBtoj0';
+const token = 'Njg1NTMyMzc1Mjk5MzkxNjMy.Xm47gg.gnKygCLPX6Ccfvqz1NdCwEy_9gI';
 
-client.on("ready", () => {
-  console.log(`Bot has started succesfuly`);
-});
+Bot.on('ready', () =>{
+    console.log('This bot is online!');
+})
 
-
-client.on("message", async message => {
+Bot.on("message", async message => {
 
     if(message.content === "POMOC") {
       message.reply('By wejść na jakiś kanał, kliknij go dwukrotnie!');
@@ -36,4 +35,4 @@ client.on("message", async message => {
 
 });
 
-client.login(token);
+Bot.login(token);
