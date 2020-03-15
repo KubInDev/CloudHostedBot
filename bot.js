@@ -27,7 +27,7 @@ client.on("message", async message => {
     if(message.content === "KONTAKT") {
       message.reply('Administacja: Pan Łukasz Matysek;woocash500#6902')
       message.reply('Administacja: Krystian Baraniecki;LiptonLeon#8949')
-      message.reply('Administacja: Pan Łukasz Matysek;NibbaBuster#1029')
+      message.reply('Administacja: Kuba Mielcarek;NibbaBuster#1029')
     }
 
 });
